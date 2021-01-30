@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Present.unity
     guid: 4b45e9516f223614a9e3df85f43fdd9d
   - enabled: 1
-    path: Assets/Scenes/PhilScene.unity
+    path: Assets/Scenes/TestScenes/PhilScene.unity
     guid: 2342aca30c3cefc42a99ede16aab72b8
   m_configObjects: {}
