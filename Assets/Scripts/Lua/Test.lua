@@ -37,7 +37,6 @@ getmenudialog()
 butthead = getvar(flowchart, "butthead")
 butthead.value = choose{ "Yes", "No", "Maybe" }
 
-
 -- if choice == 1 then
 --     call("Good")
 --     butthead = 1
@@ -46,3 +45,11 @@ butthead.value = choose{ "Yes", "No", "Maybe" }
 -- elseif choice == 3 then
 -- 	call("Branching Test")
 -- end
+
+-- Text Variation
+-- This behaviour can be modified with certain characters at the start of the [], e.g. [&a|b|c];
+
+--     & does not hold the final element it wraps back around to the beginning in a looping fashion
+--     ! does not hold the final element, it instead returns empty for the varying section
+--     ~ chooses a random element every time it is encountered
+
