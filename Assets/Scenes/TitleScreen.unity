@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &104592459 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8591242987883582727, guid: 788443523856e8e4a8b129dca957dad0, type: 3}
-  m_PrefabInstance: {fileID: 7988098097233049612}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a334fe2ffb574b3583ff3b18b4792d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &132765700
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,8 +478,8 @@ MonoBehaviour:
     transformVal: {fileID: 0}
   _fromPosition:
     vector3Ref: {fileID: 0}
-    vector3Val: {x: 0, y: -0.25, z: 0}
-  isLocal: 0
+    vector3Val: {x: -0.5, y: -0.25, z: 0}
+  isLocal: 1
   fromTransformOLD: {fileID: 0}
   fromPositionOLD: {x: 0, y: 0, z: 0}
 --- !u!114 &471235765
@@ -531,11 +520,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1871, y: 542.2273}
+  scrollPos: {x: 2001.9081, y: 583.6012}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -543,9 +532,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 471235779}
+  - {fileID: 471235771}
   selectedCommands:
-  - {fileID: 471235783}
+  - {fileID: 471235764}
   variables: []
   description: 
   stepPause: 0
@@ -611,7 +600,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1096
     y: -294.22726
-    width: 137
+    width: 138.63635
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -654,7 +643,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1253
     y: -294.72726
-    width: 88
+    width: 87.5
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -839,7 +828,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -901
     y: -296.2273
-    width: 110
+    width: 111.36363
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -905,7 +894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -1113
     y: -392.2273
-    width: 111
+    width: 112.49999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -918,7 +907,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &471235783
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1286,7 +1275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 104592459}
+  selectedFlowchart: {fileID: 471235766}
 --- !u!4 &1128210346
 Transform:
   m_ObjectHideFlags: 1
@@ -1364,7 +1353,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1604095759
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1498,7 +1487,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1740783649}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.125, z: 0}
+  m_LocalPosition: {x: -0.5, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1563,8 +1552,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 031cd8ce23d4c6d4cb26ac0c7bfc02f7, type: 2}
-  m_sharedMaterial: {fileID: 3565127589208256854, guid: 031cd8ce23d4c6d4cb26ac0c7bfc02f7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d95fc5b6a8b7f914bb36cc6f52605b27, type: 2}
+  m_sharedMaterial: {fileID: 4792508940892111048, guid: d95fc5b6a8b7f914bb36cc6f52605b27, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
