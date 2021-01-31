@@ -23,5 +23,7 @@ hasAnimalBook	= getvar(flowchart, "HasAnimalBook")
 -- end
 
 runblock(flowchart, "FadeToView")
-conversation [[ Jack: ... *yawn* What time is it? 
-Narrator: There's a few thing in his room that catches Jack's attention. ]]		
+conversation [[  Jack JackBaseRavenless left : ... *yawn* What time is it? 
+hide jack:
+Narrator: There's a few thing in his room that catches Jack's attention. 
+]]		
