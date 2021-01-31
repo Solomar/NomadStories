@@ -92,8 +92,8 @@ elseif clickedObject.value == "picture" then
 	conversation [[ Narrator: {$pictureContent} ]]
 	--
 elseif clickedObject.value == "crowFeather" then
-	conversation [[ Narrator: A black feather is framed and hanging on the wall. | Test ]]
-	conversation [[Jack: Oh right. I haven't fed Nothewig today.]]	
+	conversation [[ Narrator: A black feather is framed and hanging on the wall.]]
+	conversation [[ Jack: Oh right. I haven't fed Nothewig today. ]]	
 	runblock(flowchart, "CrowSound")
 	--
 elseif clickedObject.value == "window" then
