@@ -12,6 +12,11 @@ GameObject:
   - component: {fileID: 8591242987883582727}
   - component: {fileID: 7988098097233049615}
   - component: {fileID: 7988098097233049616}
+  - component: {fileID: 2749580616782349566}
+  - component: {fileID: -3980792469352726656}
+  - component: {fileID: 7400815421714386821}
+  - component: {fileID: 4105410678135676092}
+  - component: {fileID: -2238397270672811958}
   m_Layer: 0
   m_Name: GlobalFlowchart
   m_TagString: Untagged
@@ -61,6 +66,11 @@ MonoBehaviour:
   selectedCommands: []
   variables:
   - {fileID: 7988098097233049616}
+  - {fileID: 2749580616782349566}
+  - {fileID: -3980792469352726656}
+  - {fileID: 7400815421714386821}
+  - {fileID: 4105410678135676092}
+  - {fileID: -2238397270672811958}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -96,5 +106,80 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scope: 2
-  key: Crow
+  key: HasCrow
+  value: 0
+--- !u!114 &2749580616782349566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844455916169965007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: HasBroom
+  value: 0
+--- !u!114 &-3980792469352726656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844455916169965007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: ChoseMike
+  value: 0
+--- !u!114 &7400815421714386821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844455916169965007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: ChoseAlice
+  value: 0
+--- !u!114 &4105410678135676092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844455916169965007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: HasAnimalBook
+  value: 0
+--- !u!114 &-2238397270672811958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4844455916169965007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 2
+  key: KnowsPotions
   value: 0
